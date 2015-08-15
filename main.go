@@ -1,4 +1,4 @@
-package main
+package wego
 
 /* huangmingyou@gmail.com
 2015-07-29
@@ -11,7 +11,7 @@ import (
 	"github.com/huangmingyou/wego/wxapi"
 )
 
-func main() {
+func init() {
 
 	wxapi.Fetchtoken("ok","ok")
 	http.HandleFunc("/", wxapi.Wxinit)
