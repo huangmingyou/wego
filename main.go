@@ -8,7 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"wego/wxapi"
+	"github.com/huangmingyou/wego/wxapi"
 )
 
 func main() {
